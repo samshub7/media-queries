@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="simple-form">
+  <h1>Simple Form</h1>
+
+  <!-- form inputs go here -->
+  
+  <label for="name">Your full name</label>
+  <input id="name" type="text" name="name">
+  
+  <label for="email">Email addresss</label>
+  <input id="email" type="email" name="email">
+  
+  <label for="dob">Date of birth</label>
+  <input id="dob" type="date" name="dob">
+
+  <label for="color">Favorite color</label>
+  <input id="color" type="color" name="color">
+
+  <p>Favorite animal</p>
+  <div class="inline-label">
+    <input id="cat" type="radio" name="favoriteAnimal" value="cat">
+    <label for="cat">Cat</label>
+  </div>
+  <div class="inline-label">
+    <input id="dog" type="radio" name="favoriteAnimal" value="dog">
+    <label for="dog">Dog</label>
+  </div>
+  <div class="inline-label">
+    <input id="other" type="radio" name="favoriteAnimal" value="other">
+    <label for="other">Other</label>
+  </div>
+  
+  <label for="comments">Any further comments?</label>
+  <textarea id="comments" name="comments"></textarea>
+  
+  <div class="inline-label">
+    <input id="subscribe" type="checkbox" name="subscribe" value="yes">
+    <label for="subscribe">Subscribe to my newsletter!</label>
+  </div>
+  
+  <input type="submit">
+  
+</form>
+
+<pre id="data-preview">
+Submit the form to preview the data
+</pre>
+
+</body>
+</html>
